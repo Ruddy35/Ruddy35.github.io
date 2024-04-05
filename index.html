@@ -455,6 +455,7 @@
             const mainButton = Telegram.WebApp.MainButton;
             if (mainButton.isVisible) {
                 mainButton.disable();
+                mainButton.hide();
                 el.innerHTML = 'Show Main Button';
             } else {
                 mainButton.show();
